@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Traffic Control Dashboard Design System - Dark Futuristic Theme */
+
+@layer base {
+  :root {
+    /* Light theme */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    /* Card system */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    
+    /* Control panels */
+    --control-panel: 210 40% 98%;
+    --control-panel-border: 214.3 31.8% 45%;
+
+    /* Popover elements */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Traffic signal colors - neon style */
+    --signal-green: 145 100% 45%;
+    --signal-yellow: 48 100% 45%;
+    --signal-red: 0 100% 55%;
+    
+    /* Status indicators */
+    --status-online: 145 100% 45%;
+    --status-warning: 48 100% 45%;
+    --status-critical: 0 100% 55%;
+    --status-offline: 210 10% 50%;
+
+    /* Primary control accent */
+    --primary: 145 100% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 145 100% 50%;
+
+    /* Secondary controls */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+
+    /* Muted elements */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Accent highlights */
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+
+    /* Alert/destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Borders and inputs */
+    --border: 214.3 31.8% 50%;
+    --input: 214.3 31.8% 50%;
+    --ring: 145 100% 45%;
+
+    /* Design system radius */
+    --radius: 0.75rem;
+    
+    /* Control center specific variables */
+    --glow-primary: 0 0 20px hsl(145 100% 50% / 0.3);
+    --glow-warning: 0 0 20px hsl(48 100% 50% / 0.3);
+    --glow-critical: 0 0 20px hsl(0 100% 60% / 0.3);
+    
+    /* Gradients */
+    --gradient-panel: linear-gradient(135deg, hsl(220 13% 12%), hsl(220 13% 8%));
+    --gradient-card: linear-gradient(145deg, hsl(220 13% 10%), hsl(220 13% 12%));
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-glow: box-shadow 0.3s ease;
+    
+    /* Enhanced shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    /* Sidebar for control center */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222.2 84% 4.9%;
+    --sidebar-primary: 145 100% 40%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 210 40% 90%;
+    --sidebar-accent-foreground: 0 0% 0%;
+    --sidebar-border: 214.3 31.8% 45%;
+    --sidebar-ring: 145 100% 45%;
+  }
+
+  .dark {
+    /* Base dark theme */
+    --background: 220 13% 8%;
+    --foreground: 210 20% 85%;
+
+    /* Card system with subtle transparency */
+    --card: 220 13% 10%;
+    --card-foreground: 210 20% 85%;
+    
+    /* Control panels */
+    --control-panel: 220 13% 12%;
+    --control-panel-border: 220 13% 8%;
+
+    /* Popover elements */
+    --popover: 220 13% 10%;
+    --popover-foreground: 210 20% 85%;
+
+    /* Traffic signal colors - neon style */
+    --signal-green: 145 100% 50%;
+    --signal-yellow: 48 100% 50%;
+    --signal-red: 0 100% 60%;
+    
+    /* Status indicators */
+    --status-online: 145 100% 50%;
+    --status-warning: 48 100% 50%;
+    --status-critical: 0 100% 60%;
+    --status-offline: 210 10% 40%;
+
+    /* Primary control accent */
+    --primary: 145 100% 50%;
+    --primary-foreground: 220 13% 8%;
+    --primary-glow: 145 100% 50%;
+
+    /* Secondary controls */
+    --secondary: 220 13% 18%;
+    --secondary-foreground: 210 20% 85%;
+
+    /* Muted elements */
+    --muted: 220 13% 15%;
+    --muted-foreground: 210 10% 60%;
+
+    /* Accent highlights */
+    --accent: 220 13% 18%;
+    --accent-foreground: 210 20% 85%;
+
+    /* Alert/destructive */
+    --destructive: 0 100% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Borders and inputs */
+    --border: 220 13% 8%;
+    --input: 220 13% 8%;
+    --ring: 145 100% 50%;
+
+    /* Sidebar for control center */
+    --sidebar-background: 220 13% 8%;
+    --sidebar-foreground: 210 20% 85%;
+    --sidebar-primary: 145 100% 50%;
+    --sidebar-primary-foreground: 220 13% 8%;
+    --sidebar-accent: 220 13% 15%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 220 13% 8%;
+    --sidebar-ring: 145 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter antialiased;
+  }
+  
+  /* Custom traffic control styles */
+  .control-panel {
+    @apply bg-control-panel border-4 border-control-panel-border rounded-xl shadow-sm;
+  }
+  
+  .signal-indicator {
+    @apply relative inline-flex h-3 w-3 rounded-full;
+  }
+  
+  .signal-green {
+    @apply bg-signal-green;
+    box-shadow: var(--glow-primary);
+  }
+  
+  .signal-yellow {
+    @apply bg-signal-yellow;
+    box-shadow: var(--glow-warning);
+  }
+  
+  .signal-red {
+    @apply bg-signal-red;
+    box-shadow: var(--glow-critical);
+  }
+  
+  .pulse-glow {
+    animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+  
+  .data-glow {
+    transition: var(--transition-glow);
+  }
+  
+  .data-glow:hover {
+    box-shadow: 0 0 25px hsl(var(--primary-glow) / 0.2);
+  }
+}
+
+@layer components {
+  .control-card {
+    @apply border-4 border-border rounded-xl p-6 transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1;
+    background: hsl(var(--card));
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .status-badge {
+    @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .status-online {
+    @apply status-badge bg-status-online/10 text-status-online border border-status-online/20;
+  }
+  
+  .status-warning {
+    @apply status-badge bg-status-warning/10 text-status-warning border border-status-warning/20;
+  }
+  
+  .status-critical {
+    @apply status-badge bg-status-critical/10 text-status-critical border border-status-critical/20;
+  }
+  
+  .status-offline {
+    @apply status-badge bg-status-offline/10 text-status-offline border border-status-offline/20;
+  }
+}

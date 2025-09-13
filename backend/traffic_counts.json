@@ -1,0 +1,242 @@
+[
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 0.0,
+        "vehicles": 18,
+        "date": "2025-09-13",
+        "time": "12:14:01"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 0.33,
+        "vehicles": 12,
+        "date": "2025-09-13",
+        "time": "12:14:02"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 0.67,
+        "vehicles": 14,
+        "date": "2025-09-13",
+        "time": "12:14:02"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 1.0,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:02"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 1.33,
+        "vehicles": 17,
+        "date": "2025-09-13",
+        "time": "12:14:02"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 1.67,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:02"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 2.0,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:03"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 2.34,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:03"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 2.67,
+        "vehicles": 14,
+        "date": "2025-09-13",
+        "time": "12:14:03"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 3.0,
+        "vehicles": 16,
+        "date": "2025-09-13",
+        "time": "12:14:03"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 3.34,
+        "vehicles": 12,
+        "date": "2025-09-13",
+        "time": "12:14:04"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 3.67,
+        "vehicles": 17,
+        "date": "2025-09-13",
+        "time": "12:14:04"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 4.0,
+        "vehicles": 13,
+        "date": "2025-09-13",
+        "time": "12:14:04"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 4.34,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:04"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 4.67,
+        "vehicles": 17,
+        "date": "2025-09-13",
+        "time": "12:14:05"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 5.0,
+        "vehicles": 16,
+        "date": "2025-09-13",
+        "time": "12:14:05"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 5.34,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:05"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 5.67,
+        "vehicles": 18,
+        "date": "2025-09-13",
+        "time": "12:14:05"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 6.01,
+        "vehicles": 16,
+        "date": "2025-09-13",
+        "time": "12:14:06"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 6.34,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:06"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 6.67,
+        "vehicles": 17,
+        "date": "2025-09-13",
+        "time": "12:14:06"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 7.01,
+        "vehicles": 16,
+        "date": "2025-09-13",
+        "time": "12:14:06"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 7.34,
+        "vehicles": 14,
+        "date": "2025-09-13",
+        "time": "12:14:06"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 7.67,
+        "vehicles": 14,
+        "date": "2025-09-13",
+        "time": "12:14:07"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 8.01,
+        "vehicles": 17,
+        "date": "2025-09-13",
+        "time": "12:14:07"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 8.34,
+        "vehicles": 17,
+        "date": "2025-09-13",
+        "time": "12:14:07"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 8.68,
+        "vehicles": 16,
+        "date": "2025-09-13",
+        "time": "12:14:07"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 9.01,
+        "vehicles": 15,
+        "date": "2025-09-13",
+        "time": "12:14:08"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 9.34,
+        "vehicles": 16,
+        "date": "2025-09-13",
+        "time": "12:14:08"
+    },
+    {
+        "mode": "video",
+        "video_name": "Traffic1.mp4",
+        "timestamp_sec": 9.68,
+        "vehicles": 19,
+        "date": "2025-09-13",
+        "time": "12:14:08"
+    }
+]
