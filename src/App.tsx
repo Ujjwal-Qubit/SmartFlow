@@ -10,6 +10,8 @@ import LiveCameraFeed from "./pages/LiveCameraFeed";
 import CongestionDensity from "./pages/CongestionDensity";
 import SignalTimings from "./pages/SignalTimings";
 import NotFound from "./pages/NotFound";
+import HistoricalAnalysis from './components/HistoricalAnalysis';
+import BottleneckReport from "./components/BottleneckReport";
 
 const queryClient = new QueryClient();
 
@@ -27,9 +29,8 @@ const App = () => (
             <Route path="/cameras" element={<LiveCameraFeed />} />
             <Route path="/congestion" element={<CongestionDensity />} />
             <Route path="/flow" element={<div className="p-8 text-center text-muted-foreground">Traffic Flow page coming soon...</div>} />
-            <Route path="/bottlenecks" element={<div className="p-8 text-center text-muted-foreground">Bottle Neck page coming soon...</div>} />
-            <Route path="/history" element={<div className="p-8 text-center text-muted-foreground">Historical Analysis page coming soon...</div>} />
-            <Route path="/history" element={<div className="p-8 text-center text-muted-foreground">Future AI Prediction page coming soon...</div>} />
+            <Route path="/bottlenecks" element={<BottleneckReport />} />
+            <Route path="/history" element={<HistoricalAnalysis />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

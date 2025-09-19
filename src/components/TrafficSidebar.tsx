@@ -58,7 +58,7 @@ export function TrafficSidebar() {
             </div>
             {!collapsed && (
               <div>
-                <h2 className="text-lg font-semibold text-foreground">Traffic Control</h2>
+                <h2 className="text-lg font-semibold text-foreground">SmartFlow</h2>
                 <p className="text-xs text-muted-foreground">AI Dashboard</p>
               </div>
             )}
